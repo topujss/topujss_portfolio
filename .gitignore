@@ -39,4 +39,3 @@ postcss.config.js
 next.config.js
 elise
 .eslintrc.json
-*.config.js
