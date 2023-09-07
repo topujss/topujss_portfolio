@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portfolio_tm_home {
+	background: #daece8;
+}
+
+.social {
+	margin-bottom: 1.7rem !important;
+}
+
+.portfolio_tm_home .details .right img {
+	box-shadow: 0px 0px 12px 12px #daece8;
+	max-width: 90%;
+}
+
+.gradient_text {
+	background: linear-gradient(to right, #d0194f, #439398);
+	background-clip: unset;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.portfolio_tm_partners {
+	margin: 0;
+}
+
+.portfolio_tm_portfolio_title .buttons a:hover {
+	color: white;
+}
+
+.portfolio_list .list_inner .image {
+	background: url('/public/assets/img/portfolio/1.jpg');
+}
+
+.tools ul {
+	margin-bottom: 0 !important;
+}
+
+.react-multi-carousel-list .react-multi-carousel-item {
+	width: 100% !important;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	& > svg {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+}
+
+.swiper-pagination {
+	bottom: -0.3rem !important;
+}
+
+@media (max-width: 426px) {
+	.Typewriter__wrapper,
+	.Typewriter__cursor {
+		font-size: 2.2rem !important;
+	}
+}
+@media (max-width: 768px) {
+	.Typewriter__wrapper,
+	.Typewriter__cursor {
+		font-size: 3.5rem;
+	}
+}
